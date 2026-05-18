@@ -5,6 +5,8 @@ Introducing the PICTLEGO, a streamlit application in where you can transform you
 
 ---
 
+LIVE DEMO: https://pictlego.streamlit.app/
+
 ### Features
 - Choosing into different lego version (Disthered, Classic, Sharp)
 - Easy to use, just upload the file and wait
