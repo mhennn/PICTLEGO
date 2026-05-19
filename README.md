@@ -14,24 +14,8 @@ LIVE DEMO: https://pictlego.streamlit.app/
 ### PICTLEGO UI
 ![pictlego_ui](/assets/images/streamlit_ui.png)
 
-### Run the application
-Activate the environment
-```bash
-py -m venv .venv
-```
-```bash
-.venv\Scripts\activate
-```
-
-Install the dependencies
-```bash
-pip install -r requirements.txt
-```
-
-Run the application
-```bash
-streamlit run app.py
-```
+### Converted Version
+![converted_modes](/assets/images/converted_modes.png)
 
 ---
 This application uses the Python Package "Legopic". In where you can transform your image into a lego style with 3 different versions and have a freedom to choose your palette.
@@ -57,6 +41,25 @@ session.convert("dithered")
 3. Session Conversion or combining the image, palette and canvas size
 4. Converting the image into different lego version
 5. Save the image
+
+### Run the application
+Activate the environment
+```bash
+py -m venv .venv
+```
+```bash
+.venv\Scripts\activate
+```
+
+Install the dependencies
+```bash
+pip install -r requirements.txt
+```
+
+Run the application
+```bash
+streamlit run app.py
+```
 
 ---
 

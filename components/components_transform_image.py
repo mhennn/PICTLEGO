@@ -10,7 +10,7 @@ class ImageLego:
     def __init__(self):
         self.img = None
 
-    def image_conversion(self, uploaded_image):
+    def image_conversion(self, uploaded_image, convert_mode):
         with tempfile.NamedTemporaryFile(delete=False, suffix=".jpg") as tmp:
             tmp.write(uploaded_image.getbuffer())
             tmp_path = tmp.name
@@ -25,7 +25,7 @@ class ImageLego:
             canvas_size=(image.width, image.height)
         )
 
-        session.convert("dithered")
+        session.convert(convert_mode)
         arr = session.canvas.to_array()
 
         self.img = Image.fromarray(np.uint8(arr))
